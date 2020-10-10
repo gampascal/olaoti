@@ -1,0 +1,35 @@
+body{
+    
+     
+    height: 100%;
+    font-family: 'Acme', sans-serif;
+    color: white;
+    position: relative;
+    background-size: cover;
+
+    
+
+}
+.navbar{
+   
+    color: #162647;
+    border: none;
+    padding: 0px 7%;
+     z-index: 20;
+    background-color:#acb3be;
+    border:none;
+    background-size: cover;
+    margin-bottom: 0;
+    position: fixed;
+}
+.navbar-right li #menu {
+    color: #162647;
+}
+.main{
+    
+     height: 680px;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    opacity: 0.7;
+}
