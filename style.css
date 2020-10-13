@@ -6,25 +6,35 @@ body{
     color: white;
     position: relative;
     background-size: cover;
+    padding: 0;
+    margin: 0;
 
     
 
 }
+.container-fluid{
+    padding: 0px;
+    margin: 0px;
+}
 .navbar{
    
-    color: #162647;
+    color: #fff;
     border: none;
     padding: 0px 7%;
      z-index: 20;
-    background-color:#acb3be;
+    background-color:transparent;
     border:none;
     background-size: cover;
     margin-bottom: 0;
     position: fixed;
 }
 .navbar-right li #menu {
-    color: #162647;
+    color: #fff;
 }
+.navbar-default .navbar-brand{
+    color: #fff;
+margin-top: -30px;}
+    
 .main{
     
      height: 680px;
@@ -32,4 +42,69 @@ body{
     margin: 0;
     padding: 0;
     opacity: 0.7;
+}
+.main h2{
+    
+    padding-left: 10%;
+    margin-top: 15%;
+    color: #ffffff;
+    font-size: 3em;
+    line-height: 50px;
+    font-weight: 1000;
+}
+.main p{
+    padding-left: 10%;
+    color: white;
+    
+}
+ #col2 img{
+    border: solid 2px white;
+    border-radius: 10%;
+     background-color: black;
+     margin-top: 15%;
+}
+.col-md-6{
+    margin-top: 10%;
+}
+.main img{
+
+}
+.col2 p{
+   margin-top: -50%;
+}
+.services{
+    background-color: #fff;
+    padding: 10%;
+    text-align: center;
+    color: #162647;
+}
+.services img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+.services hr{
+    border: solid 2px  #162647 ;
+    width: 100px;
+    border-radius: 5px;
+}
+.why{
+    background-color:#162647;
+    text-align: center;
+    height: 500px;
+}
+.why hr{
+    border: solid 2px  #fff ;
+    width: 100px;
+    border-radius: 5px;
+}
+.why{
+padding-top: 5%;
+}
+.why .row img{
+    
+    border: solid 2px white;
+    border-radius: 5px;
+    width: 200px;
+    height: 210px;
 }
