@@ -20,7 +20,7 @@
 
     
 <!--content starts here-->
-<div class="container-fluid">
+
    <!--   navbar starts here-->
 <nav class="navbar navbar-default navbar-fixed-top" id="navbarolaoti">
   <div class="container-fluid">
@@ -38,11 +38,12 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" id="navbar-default">
           <ul class="nav navbar-nav navbar-right"  role="tablist">
-            <li ><a href="#home" id="menu"><i class="fa fa-home"></i> Home<span class="sr-only"></span></a></li>
-             <li><a href="#howitworks" id="menu"> About Us</a></li>
-            <li><a href="#cusines" id="menu"> Team</a></li>
-            <li><a href="#drinks" id="menu"> Projects</a></li>
-            <li><a href="#dessert" id="menu">Contact Us</a></li>
+            <li ><a href="#main" id="menu"><i class="fa fa-home"></i> Home<span class="sr-only"></span></a></li>
+             <li><a href="#about" id="menu"> About Us</a></li>
+             <li><a href="#services" id="menu"> Services</a></li>
+            <li><a href="#team" id="menu"> Team</a></li>
+            <li><a href="#projects" id="menu"> Projects</a></li>
+            <li><a href="#contact" id="menu">Contact Us</a></li>
             
         
           </ul>
@@ -52,28 +53,25 @@
   </div><!-- /.container-fluid -->
 </nav>
 <!--   navbar ends here-->
-    <div class="main" id="main"  data-parallax="scroll" data-image-src="images/bg/BG.png"> 
+<div class="container-fluid">  
+<div class="main" id="main"  data-parallax="scroll" data-image-src="images/bg/BG.png"> 
   <div class="row">
       <div class="col-md-6" id="col1">
           <strong><h2>YOU IMAGINE! <br> WE CREATE!</h2></strong>
-  <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit.  Nesciunt provident commodi <br>voluptatem totam.</p>
+  <p> “Strive for perfection in everything you do. <br> Take the best that exists and make it better. <br>When it does not exist, design it.”
+- Sir Henry Royce</p>
+     <a href="#about"><button class="btn btn-default btn-lg">Learn More <i class="fa fa-arrow-right"></i> </button></a>
       </div>
       <div class="col-md-6" id="col2">
-          <div class="col md-6">
               <img src="images/boss/boss.jpg" alt="">
           <h4>Mr Shogo Olaoti</h4>
           <h5>MD. Olaoti & Associates Consult</h5>
-          </div>
-          <div class="col md-6">
-              Lorem ipsum dolor sit amet, consectetur adipisicingbr <br> elit. Officiis laboriosam veritatis quaerat dicta praesentium <br> aut quos architecto numquam aperiam sequi totam <br>accusantium repellat quisquam dolorum distinctio minus <br> modi delectus, minima.
-          </div>
-         
-          
-      </div>
+          <p> Lorem ipsum dolor sit amet, consectetur adipisicingbr <br> elit. Officiis laboriosam veritatis quaerat dicta praesentium <br> aut quos architecto numquam aperiam sequi totam <br>accusantium repellat quisquam dolorum distinctio minus <br> modi delectus, minima.</p>
+        </div>
   </div>
    
 </div>
-<div class="services">
+<div class="services" id="services">
     <h1>Our Services</h1>
     <hr>
     <div class="row">
@@ -85,7 +83,7 @@
         <div class="col-md-4">
             <img src="images/services/serve2.jpg" alt="">
             <h1>Building</h1>
-             <p>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit. Sint, quod.</p>
+             <p>“A great building must begin with the immeasurable, must go through measurable means when it is being designed, and in the end must be unmeasured.” – Louis Kahn</p>
         </div>
         <div class="col-md-4">
             <img src="images/services/serve3.jpg" alt="">
@@ -94,8 +92,8 @@
         </div>
     </div>
 </div>
-<div class="why" >
-   <h1>Why Choose Us</h1>
+<div class="why" id="team">
+   <h1>Our Team</h1>
    <hr>
     <div class="row" >
         <div class="col-md-3" id="col01">
@@ -116,42 +114,61 @@
         </div>
     </div>
 </div>
-<div class="services">
+<div class="main" id="about"  data-parallax="scroll" data-image-src="images/bg/BG.png"> 
+  
+   <div class="row" id="more">
+       
+   </div>
+</div>
+<div class="services" id="projects">
     <h1>Featured Projects</h1>
     <hr>
     <div class="row">
         <div class="col-md-4">
             <img src="images/services/serve1.jpg" alt=""><br><br>
             
-            <button class="btn btn-default btn-lg">Completed Projects</button>
+            <a href="#"><button class="btn btn-default btn-lg">Completed Projects</button></a>
         </div>
         <div class="col-md-4">
             <img src="images/services/serve2.jpg" alt=""> <br><br>
-           <button class="btn btn-default btn-lg">Ongoing Projects</button>
+           <a href="#"><button class="btn btn-default btn-lg">Ongoing Projects</button></a>
             
         </div>
         <div class="col-md-4">
             <img src="images/services/serve3.jpg" alt=""><br><br>
-           <button class="btn btn-default btn-lg">Future Projects</button>
+           <a href="#"><button class="btn btn-default btn-lg">Future Projects</button></a>
              
         </div>
     </div>
 </div>
-<footer >
+<footer id="contact">
     <div class="row" id="footer" data-parallax="scroll" data-image-src="images/bg/BG.png">
-        <div class="col-md-3">
+        <div class="col-md-3" id="social">
              
-            <h3> <a href="https://facebook.com"><h2><i class="fa fa-facebook-square"></i></h2> </a>
-             <a href="https://twitter.com"><h2><i class="fa fa-twitter-square"></i></h2> </a>
-             <a href="https://istagram.com"> <h2><i class="fa fa-instagram"></i></h2> </a>
-             <a href="https://whatsapp.com"><h2><i class="fa fa-whatsapp"></i></h2> </a></h3>
+             <div class="row">
+                 <div class="col-md-3">
+                     <a href="https://facebook.com"><h2><i class="fa fa-facebook-square"></i></h2> </a>
+            
+                 </div>
+                 <div class="col-md-3">
+                      <a href="https://twitter.com"><h2><i class="fa fa-twitter-square"></i></h2> </a>
+             
+                 </div>
+                 <div class="col-md-3">
+                     <a href="https://istagram.com"> <h2><i class="fa fa-instagram"></i></h2> </a>
+             
+                 </div>
+                 <div class="col-md-3">
+                     <a href="https://whatsapp.com"><h2><i class="fa fa-whatsapp"></i></h2> </a>
+                 </div>
+             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3" id="contactus">
            <h3>Contact us:</h3>
            
            <h5><i class="fa fa-home"></i> C & S Movement Church shopping Complex, New jerusalem Damaturu.</h5>
-           <h5><a href="olaoti@gmail.com"><i class="fa fa-envelope"></i> olaoti@gmail.com</a></h5>
-           <h5><i class="fa fa-phone"></i>  08135424744</h5>
+           <h5 id="mail"><a href="gmail.com/olaoti@gmail.com"><i class="fa fa-envelope"></i> olaoti@gmail.com</a></h5>
+           <h5><a href="tel:+2348135424744" id="phone"><i class="fa fa-phone"></i>  08135424744</a></h5>
             
         </div>
         <div class="col-md-3">
@@ -169,6 +186,7 @@
     </div>
     <hr>
     <p id="copyright">copyright @ 2020. desined by gampascal for olaoti & associate consult. All right reserved.</p>
+    <h3 id="up"><a href="#main"><i class="fa fa-arrow-up"></i></a></h3>
 </footer>
 
 </div>
